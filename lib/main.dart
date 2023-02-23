@@ -44,7 +44,7 @@ void _calculate() {
   } else if (imc >= 35 && imc < 40) {
     _infoText = 'Obesidade grau III (${imc.toStringAsPrecision(4)})';
   } else {
-    _infoText = 'Baleia (${imc.toStringAsPrecision(4)})';
+    _infoText = 'Obesidade Morbida (${imc.toStringAsPrecision(4)})';
   }
   print(imc);
 }
